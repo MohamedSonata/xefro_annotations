@@ -1,8 +1,8 @@
-class XefroCommandLine{
+class XefroGen{
    final String? flag;
   final dynamic defaultValue;
 
-  const XefroCommandLine({this.flag, this.defaultValue});
+  const XefroGen({this.flag, this.defaultValue});
 }
 
 class CommandLineFlag{
